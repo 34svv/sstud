@@ -2,7 +2,7 @@
 
 class CORAssistant {
     constructor() {
-        this.apiKey = localStorage.getItem('cor_api_key') || '';
+        this.apiKey = localStorage.getItem('cor_api_key') || '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';
         this.model = localStorage.getItem('cor_model') || 'meta-llama/llama-4-maverick:free';
         this.history = JSON.parse(localStorage.getItem('cor_history') || '[]');
         this.currentResult = '';
